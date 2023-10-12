@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure install postinst unpack
+DESCRIPTION=A Graphical Open-Source Sequencer For Digital Art
+EAPI=8
+HOMEPAGE=http://www.iannix.org/
+INHERIT=git-r3 qmake-utils
+IUSE=examples
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=dev-qt/qtcore dev-qt/qtgui dev-qt/qtscript dev-qt/qtsql dev-qt/qttest dev-qt/qtopengl dev-qt/qtsvg media-libs/freetype x11-libs/libSM x11-libs/libXrender media-libs/mesa media-libs/alsa-lib x11-libs/gdk-pixbuf
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_md5_=daf95c33a97e85cb91fe5625c9e4659c

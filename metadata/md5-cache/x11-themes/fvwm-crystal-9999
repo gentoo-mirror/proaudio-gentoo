@@ -1,0 +1,16 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst setup unpack
+DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) acct-group/fvwm-crystal || ( >=x11-wm/fvwm3-3.1.0.4[go] >=x11-wm/fvwm-2.6.9[png] ) virtual/imagemagick-tools || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer ) || ( x11-misc/hsetroot media-gfx/feh ) sys-apps/sed sys-devel/bc app-alternatives/awk x11-apps/xwd media-sound/alsa-utils
+DESCRIPTION=Configurable FVWM theme with transparency and freedesktop compatible menu
+EAPI=8
+HOMEPAGE=http://fvwm-crystal.org/
+INHERIT=readme.gentoo-r1 python-single-r1 git-r3
+IUSE=python_single_target_python3_10 python_single_target_python3_11
+LICENSE=GPL-3
+PROPERTIES=live live
+RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) acct-group/fvwm-crystal || ( >=x11-wm/fvwm3-3.1.0.4[go] >=x11-wm/fvwm-2.6.9[png] ) virtual/imagemagick-tools || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer ) || ( x11-misc/hsetroot media-gfx/feh ) sys-apps/sed sys-devel/bc app-alternatives/awk x11-apps/xwd media-sound/alsa-utils
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
+RESTRICT=mirror
+SLOT=0
+_eclasses_=readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	12aa0037eb004139215ff04894d52b28	python-single-r1	75118e916668a74c660a13b0ecb22562	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=31d086870e8690d2ca451a573505e0ed

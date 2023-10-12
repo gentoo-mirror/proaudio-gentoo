@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=media-libs/ladspa-sdk
+DESCRIPTION=NJL LADSPA audio plugins/effects
+EAPI=8
+HOMEPAGE=http://devel.tlrmx.org/audio
+INHERIT=multilib toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://devel.tlrmx.org/audio/source/njl-plugins-0.2.1.tar.gz
+_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc
+_md5_=5d4e6fc59473a3ff2b1b5aa232b22683

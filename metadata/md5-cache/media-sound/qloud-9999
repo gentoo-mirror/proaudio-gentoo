@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-qt/qtcharts:5 dev-qt/qtcore:5 dev-qt/qtgui:5 dev-qt/qtprintsupport:5 dev-qt/qtxml:5 dev-qt/qtxmlpatterns:5 dev-qt/qtwidgets:5 virtual/jack >=media-libs/libsndfile-1.0 >=sci-libs/fftw-3.0
+DESCRIPTION=Tool to measure loudspeaker frequency and step responses and distortions
+EAPI=8
+HOMEPAGE=http://gaydenko.com/qloud/ https://github.com/molke-productions/qloud
+INHERIT=git-r3 multilib
+LICENSE=GPL-2
+PROPERTIES=live
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc
+_md5_=e00e47cf32c0ae47f7dc074446c1a9a2

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=A collection of presets for Jamin made by Gilberto Andre Borges
+EAPI=8
+HOMEPAGE=https://musical-artifacts.com/artifacts?formats=deb&q=Gilberto+Andr%C3%A9+Borges+%28Gilblack%29&tags=preset
+KEYWORDS=~amd64 ~ppc ~x86
+LICENSE=CC-BY-4.0
+RDEPEND=media-sound/jamin
+RESTRICT=mirror
+SLOT=0
+SRC_URI=https://github.com/domichel/GenCool/raw/master/distfiles/jamin-presets-6.0.tar.bz2
+_md5_=c058983ceb6b1aae635ca8dd3976240c

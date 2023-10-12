@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure
+DEPEND=media-libs/dssi media-libs/liblo media-libs/ladspa-sdk x11-libs/gtk+:2 jack? ( virtual/jack ) virtual/pkgconfig
+DESCRIPTION=graphical DSSI host, based on jack-dssi-host
+EAPI=8
+HOMEPAGE=http://www.smbolton.com/linux.html
+IUSE=jack
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=media-libs/dssi media-libs/liblo media-libs/ladspa-sdk x11-libs/gtk+:2 jack? ( virtual/jack )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://www.smbolton.com/linux/ghostess-20210101.tar.bz2
+_md5_=c98e23b12058388ac86d4bf23c1fb9e6

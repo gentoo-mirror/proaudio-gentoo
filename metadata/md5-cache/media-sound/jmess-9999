@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=virtual/jack dev-qt/qtcore
+DESCRIPTION=JMess can save/load an XML file with all the current jack connections
+EAPI=8
+HOMEPAGE=https://ccrma.stanford.edu/groups/soundwire/software/jmess/
+INHERIT=git-r3 qmake-utils
+IUSE=debug
+LICENSE=MIT
+PROPERTIES=live
+RDEPEND=virtual/jack dev-qt/qtcore
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_md5_=00c6c0c1714246634007766ca37a71e6

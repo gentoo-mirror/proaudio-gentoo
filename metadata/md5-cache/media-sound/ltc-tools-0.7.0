@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install
+DEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile virtual/jack virtual/pkgconfig
+DESCRIPTION=Linear/Logitudinal Time Code (LTC) Library tools
+EAPI=8
+HOMEPAGE=https://github.com/x42/ltc-tools
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile virtual/jack
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://github.com/x42/ltc-tools/archive/v0.7.0.tar.gz -> ltc-tools-0.7.0.tar.gz
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=075fdf2eecc3a4825b93dfea509c8d07

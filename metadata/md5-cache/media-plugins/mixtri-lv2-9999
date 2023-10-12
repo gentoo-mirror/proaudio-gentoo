@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=media-libs/lv2 media-libs/libltc x11-libs/gtk+:2 x11-libs/pango x11-libs/cairo virtual/opengl
+DESCRIPTION=MixTrix is a matrix mixer & trigger processor intended to be used with sisco-lv2
+EAPI=8
+HOMEPAGE=https://x42.github.io/mixtri.lv2
+INHERIT=desktop git-r3 multilib xdg-utils
+LICENSE=GPL-2
+PROPERTIES=live
+SLOT=0
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d	git-r3	2358a7b20091609e24bd3a83b3ac5991	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=12c866c94607485c98d4de39af5ec6b0

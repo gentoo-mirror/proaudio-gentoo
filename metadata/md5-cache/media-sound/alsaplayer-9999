@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure postinst postrm prepare unpack
+DEPEND=media-libs/libsndfile alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) flac? ( media-libs/flac ) jack? ( virtual/jack ) mikmod? ( >=media-libs/libmikmod-3.1.10 ) nas? ( media-libs/nas ) ogg? ( media-libs/libogg ) opengl? ( virtual/opengl ) vorbis? ( media-libs/libvorbis ) xosd? ( x11-libs/xosd ) >=dev-libs/glib-2.10.1 virtual/pkgconfig doc? ( app-doc/doxygen ) nls? ( sys-devel/gettext ) gtk? ( >=x11-libs/gtk+-2.8 ) systray? ( >=x11-libs/gtk+-2.10 )
+DESCRIPTION=Media player primarily utilising ALSA
+EAPI=7
+HOMEPAGE=http://www.alsaplayer.org/
+INHERIT=git-r3 autotools xdg-utils
+IUSE=alsa doc flac gtk jack mad mikmod nas nls ogg opengl oss vorbis systray xosd
+LICENSE=GPL-3
+PROPERTIES=live
+RDEPEND=media-libs/libsndfile alsa? ( media-libs/alsa-lib ) mad? ( media-libs/libmad ) flac? ( media-libs/flac ) jack? ( virtual/jack ) mikmod? ( >=media-libs/libmikmod-3.1.10 ) nas? ( media-libs/nas ) ogg? ( media-libs/libogg ) opengl? ( virtual/opengl ) vorbis? ( media-libs/libvorbis ) xosd? ( x11-libs/xosd )
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	xdg-utils	baea6080dd821f5562d715887954c9d3
+_md5_=3d1159c9da4f337d4a668bd68beaed81

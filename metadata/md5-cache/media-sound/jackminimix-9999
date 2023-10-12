@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install unpack
+DEPEND=virtual/jack >=media-libs/liblo-0.23 >=dev-vcs/git-1.8.2.1[curl]
+DESCRIPTION=a simple mixer for the Jack Audio Connection Kit with an OSC based control interface
+EAPI=6
+HOMEPAGE=http://www.aelius.com/njh/jackminimix/
+INHERIT=git-r3
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=virtual/jack >=media-libs/liblo-0.23
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=9cc57db9647293ad757e1ea3ae99d21c

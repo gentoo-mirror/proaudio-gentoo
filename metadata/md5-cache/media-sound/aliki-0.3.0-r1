@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install
+DEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1 >=media-libs/libsndfile-1.0.18 >=media-libs/zita-alsa-pcmi-0.2.0 >=sci-libs/fftw-3.2.2:3.0
+DESCRIPTION=An integrated system for Impulse Response measurements
+EAPI=8
+HOMEPAGE=http://kokkinizita.linuxaudio.org/linuxaudio/
+INHERIT=toolchain-funcs
+IUSE=doc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1 >=media-libs/libsndfile-1.0.18 >=media-libs/zita-alsa-pcmi-0.2.0 >=sci-libs/fftw-3.2.2:3.0
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/aliki-0.3.0.tar.bz2
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=ef49c57765b5864e224034f1e1566dab

@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile virtual/jack virtual/pkgconfig
+DESCRIPTION=Linear/Logitudinal Time Code (LTC) Library tools
+EAPI=8
+HOMEPAGE=https://github.com/x42/ltc-tools
+INHERIT=git-r3 toolchain-funcs
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile virtual/jack
+RESTRICT=mirror
+SLOT=0
+_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=075fdf2eecc3a4825b93dfea509c8d07

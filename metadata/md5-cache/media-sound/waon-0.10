@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=media-libs/libsndfile sci-libs/fftw:3.0 pv? ( media-libs/libao media-libs/libsamplerate ) gtk? ( x11-libs/gtk+:2 media-libs/libao media-libs/libsamplerate ) !media-sound/waonc virtual/pkgconfig
+DESCRIPTION=A wave to notes transcriber, able to transcribe wav to midi
+EAPI=8
+HOMEPAGE=http://waon.sourceforge.net/
+INHERIT=toolchain-funcs
+IUSE=gtk pv
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/libsndfile sci-libs/fftw:3.0 pv? ( media-libs/libao media-libs/libsamplerate ) gtk? ( x11-libs/gtk+:2 media-libs/libao media-libs/libsamplerate )
+RESTRICT=mirror
+SLOT=0
+SRC_URI=mirror://sourceforge/waon/0.10/waon-0.10.tar.gz
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=ded6a6ec9ba6c6bb2a950482fe7537ff
