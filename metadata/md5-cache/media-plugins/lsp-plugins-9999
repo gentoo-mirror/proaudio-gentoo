@@ -12,5 +12,5 @@ RDEPEND=!media-libs/lsp-plugins !media-plugins/lsp-plugins-lv2 media-libs/libglv
 REQUIRED_USE=|| ( jack ladspa lv2 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	5f250f8d967fc24a6490b549586670fa	git-r3	2358a7b20091609e24bd3a83b3ac5991	xdg-utils	baea6080dd821f5562d715887954c9d3
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	5ae516d405b6ae5636e487ea4350a8a2	git-r3	2358a7b20091609e24bd3a83b3ac5991	xdg-utils	baea6080dd821f5562d715887954c9d3
 _md5_=934709066160753aced2a989fe40cf05
