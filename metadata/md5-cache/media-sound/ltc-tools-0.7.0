@@ -10,5 +10,5 @@ RDEPEND=>=media-libs/libltc-1.1.0 media-libs/libsndfile virtual/jack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://github.com/x42/ltc-tools/archive/v0.7.0.tar.gz -> ltc-tools-0.7.0.tar.gz
-_eclasses_=toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=075fdf2eecc3a4825b93dfea509c8d07
