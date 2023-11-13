@@ -12,5 +12,5 @@ LICENSE=|| ( BSD as-is )
 RDEPEND=>=dev-lang/tcl-8.3.3 >=dev-lang/tk-8.3.3 alsa? ( >=media-libs/alsa-lib-0.9.0_rc2 ) jack? ( virtual/jack ) fftw? ( >=sci-libs/fftw-3 ) portaudio? ( media-libs/portaudio )
 SLOT=0
 SRC_URI=http://msp.ucsd.edu/Software/pd-0.54-0.src.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	desktop	021728fdc1b03b36357dbc89489e0f0d	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
 _md5_=bac39a3436feb22af3903c65c9058294
