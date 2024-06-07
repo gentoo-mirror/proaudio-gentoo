@@ -56,7 +56,7 @@ media-sound/rakarrack-plus 1.2.4 9999: A multi-effects board that is a merging o
 media-sound/rsound 1.1 9999: Networked audio system to transfer audio data to a different computer.
 media-sound/sysexxer-ng 9999: Universal tool to exchange MIDI system-exclusive data
 media-sound/tetraproc 0.8.6: A-format to B-format signal converter for tetrahedral Ambisonic microphones
-media-sound/tuxguitar 1.6.0: TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
+media-sound/tuxguitar 1.6.3: TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
 media-sound/waon 0.10: A wave to notes transcriber, able to transcribe wav to midi
 media-sound/waonc 9999: A wave to notes transcriber, able to transcribe wav to midi
 media-sound/yass 0.1.0: Yet Another Scrolling Scope features jack input, variable scrolling speed and automatic gain control
