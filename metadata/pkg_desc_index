@@ -42,6 +42,7 @@ media-sound/jconvolver 1.1.0: Command line convolution reverb by Fons Adriaensen
 media-sound/jkmeter 0.9.0: Jkmeter is a combined RMS/digital peak meter based on the ideas of mastering guru Bob Katz
 media-sound/jmess 9999: JMess can save/load an XML file with all the current jack connections
 media-sound/jmeters 0.4.5: A jack multichannel audio level meter app featuring correct ballistics for both the VU and the PPM
+media-sound/jnoise 0.6.0: A command line JACK app generating white and pink gaussian noise
 media-sound/jnoisemeter 0.2.2: Jnoisemeter is a small app designed to measure audio test signals and in particular noise signals
 media-sound/ladish 9999: LADI Session Handler - a session management system for JACK applications
 media-sound/ltc-tools 0.7.0 9999: Linear/Logitudinal Time Code (LTC) Library tools
