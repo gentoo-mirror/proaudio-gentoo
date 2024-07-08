@@ -1,8 +1,8 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2024 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
-inherit exteutils toolchain-funcs multilib
+EAPI=8
+inherit toolchain-funcs multilib
 
 RESTRICT="mirror"
 DESCRIPTION="An Ambisonic decoder for first and second order"
@@ -21,21 +21,17 @@ DEPEND="virtual/jack
 
 S="${S}/source"
 RDEPEND="$DEPEND"
-
-src_prepare() {
-	epatch "${FILESDIR}/${P}-Makefile.patch"
-	eapply_user
-}
+PATCHES=( "${FILESDIR}/${P}-Makefile.patch" )
 
 src_compile() {
 	tc-export CC CXX
 	CFLAGS="$(pkg-config --cflags gthread-2.0) $CFLAGCS" \
 	LDLIBS="$(pkg-config --libs gthread-2.0)" \
-	emake PREFIX="/usr" LIBDIR="$(get_libdir)" || die "make failed"
+	emake PREFIX="/usr" LIBDIR="$(get_libdir)"
 }
 
 src_install() {
-	emake PREFIX="/usr" DESTDIR="${D}" install || die "install failed"
-	cd ..
+	emake PREFIX="/usr" DESTDIR="${D}" install
+	cd .. || die "cd failed"
 	dodoc AUTHORS README "$DISTDIR"/ambdec-manual.pdf
 }
