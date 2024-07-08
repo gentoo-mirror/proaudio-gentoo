@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install
+DEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1
+DESCRIPTION=An Ambisonic decoder for first and second order
+EAPI=8
+HOMEPAGE=http://kokkinizita.linuxaudio.org/linuxaudio
+INHERIT=toolchain-funcs multilib
+KEYWORDS=~x86 ~amd64
+LICENSE=GPL-2
+RDEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/ambdec-0.7.1.tar.bz2 http://kokkinizita.linuxaudio.org/linuxaudio/downloads/ambdec-manual.pdf
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_md5_=d5578285f6ff91d33964bd56febbcdd3

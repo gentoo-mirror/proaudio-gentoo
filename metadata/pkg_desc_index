@@ -21,6 +21,7 @@ media-plugins/xfade-lv2 9999: Stereo DJ X-fade
 media-sound/4deckradio 9999: Multi-deck media playback for radio stations
 media-sound/aliki 0.3.0-r1: An integrated system for Impulse Response measurements
 media-sound/alsaplayer 9999: Media player primarily utilising ALSA
+media-sound/ambdec 0.7.1-r2: An Ambisonic decoder for first and second order
 media-sound/amidimap 0.1.1-r1: Read in, process and output MIDI events.
 media-sound/aseqjoy 0.0.2: Joystick to ALSA MIDI sequencer converter.
 media-sound/drc 3.2.3: Generate digital room correction FIR filters for use in realtime convolution engines like BruteFIR
