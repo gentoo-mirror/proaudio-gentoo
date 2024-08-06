@@ -10,5 +10,5 @@ RDEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/ambdec-0.7.1.tar.bz2 http://kokkinizita.linuxaudio.org/linuxaudio/downloads/ambdec-manual.pdf
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	e7e7331166166e7a516d19e264b098c2	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=d5578285f6ff91d33964bd56febbcdd3
