@@ -10,5 +10,5 @@ RDEPEND=virtual/jack
 RESTRICT=mirror
 SLOT=0
 SRC_URI=https://github.com/domichel/proaudio-gentoo/blob/main/distfiles/jnoise-0.6.0.tar.bz2
-_eclasses_=toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5	multilib	c19072c3cd7ac5cb21de013f7e9832e0
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=dea3193d4a5eb1277fa580541b547e49

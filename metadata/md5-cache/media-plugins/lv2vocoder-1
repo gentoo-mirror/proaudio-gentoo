@@ -7,5 +7,5 @@ KEYWORDS=amd64 ~x86
 LICENSE=GPL-2
 SLOT=0
 SRC_URI=http://cdn-fastly.deb.debian.org/debian/pool/main/l/lv2vocoder/lv2vocoder_1.orig.tar.bz2
-_eclasses_=multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	5f8f1dc0c94e007fa08af4e98a19d0e5
+_eclasses_=toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=bc2c3f9cbfcdf0816b9b73dd2006ba30
