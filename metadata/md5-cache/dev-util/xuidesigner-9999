@@ -1,0 +1,14 @@
+BDEPEND=sys-devel/gettext >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=app-editors/vim-core media-libs/lilv dev-libs/glib:2 x11-libs/cairo x11-libs/libX11
+DESCRIPTION=A WYSIWYG LV2 GUI/Plugin creator tool
+EAPI=8
+HOMEPAGE=https://github.com/brummer10/XUiDesigner
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+INHERIT=git-r3 toolchain-funcs xdg
+LICENSE=OBSD-1
+PROPERTIES=live
+RDEPEND=app-editors/vim-core media-libs/lilv dev-libs/glib:2 x11-libs/cairo x11-libs/libX11 dev-lang/python
+SLOT=0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
+_md5_=92347784dad9f1a35fbc6a7bcd9f9c73
