@@ -29,7 +29,6 @@ media-sound/drc 3.2.3: Generate digital room correction FIR filters for use in r
 media-sound/ebumeter 0.5.1: Loudness measurement according to EBU-R128
 media-sound/foo-yc20 1.3.0: YC-20 divide-down combo organ emulator with lv2 plugin
 media-sound/ghostess 20210101: graphical DSSI host, based on jack-dssi-host
-media-sound/gwc 0.22.06: Gnome Wave Cleaner
 media-sound/iannix 9999: A Graphical Open-Source Sequencer For Digital Art
 media-sound/jack_delay 0.4.2: measures the latency between two jack ports with subsample accuracy
 media-sound/jack_oscrolloscope 0.7: Simple waveform viewer for JACK
