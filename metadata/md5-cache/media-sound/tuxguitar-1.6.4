@@ -1,17 +1,17 @@
-BDEPEND=>=virtual/jdk-1.5 >=dev-java/swt-4.26[cairo] >=dev-qt/qtbase-6.6 media-libs/lilv media-libs/suil >=net-libs/webkit-gtk-2.42 alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) fluidalsa? ( media-sound/fluidsynth[alsa] ) fluidjack? ( media-sound/fluidsynth[jack] ) fluidsdl? ( media-sound/fluidsynth[sdl] ) fluidoss? ( media-sound/fluidsynth[oss] ) fluidpipewire? ( media-sound/fluidsynth[pipewire] ) fluidportaudio? ( media-sound/fluidsynth[portaudio] ) fluidpulseaudio? ( media-sound/fluidsynth[pulseaudio] ) app-arch/unzip dev-java/maven-bin
+BDEPEND=>=virtual/jdk-1.5 >=dev-java/swt-4.26[cairo] >=dev-qt/qtbase-6.6 media-libs/lilv media-libs/suil html? ( >=net-libs/webkit-gtk-2.42 ) alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) fluidalsa? ( media-sound/fluidsynth[alsa] ) fluidjack? ( media-sound/fluidsynth[jack] ) fluidsdl? ( media-sound/fluidsynth[sdl] ) fluidoss? ( media-sound/fluidsynth[oss] ) fluidpipewire? ( media-sound/fluidsynth[pipewire] ) fluidportaudio? ( media-sound/fluidsynth[portaudio] ) fluidpulseaudio? ( media-sound/fluidsynth[pulseaudio] ) app-arch/unzip dev-java/maven-bin
 DEFINED_PHASES=compile install postinst postrm preinst pretend unpack
-DEPEND=>=virtual/jdk-1.5 >=dev-java/swt-4.26[cairo] >=dev-qt/qtbase-6.6 media-libs/lilv media-libs/suil >=net-libs/webkit-gtk-2.42 alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) fluidalsa? ( media-sound/fluidsynth[alsa] ) fluidjack? ( media-sound/fluidsynth[jack] ) fluidsdl? ( media-sound/fluidsynth[sdl] ) fluidoss? ( media-sound/fluidsynth[oss] ) fluidpipewire? ( media-sound/fluidsynth[pipewire] ) fluidportaudio? ( media-sound/fluidsynth[portaudio] ) fluidpulseaudio? ( media-sound/fluidsynth[pulseaudio] )
+DEPEND=>=virtual/jdk-1.5 >=dev-java/swt-4.26[cairo] >=dev-qt/qtbase-6.6 media-libs/lilv media-libs/suil html? ( >=net-libs/webkit-gtk-2.42 ) alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) fluidalsa? ( media-sound/fluidsynth[alsa] ) fluidjack? ( media-sound/fluidsynth[jack] ) fluidsdl? ( media-sound/fluidsynth[sdl] ) fluidoss? ( media-sound/fluidsynth[oss] ) fluidpipewire? ( media-sound/fluidsynth[pipewire] ) fluidportaudio? ( media-sound/fluidsynth[portaudio] ) fluidpulseaudio? ( media-sound/fluidsynth[pulseaudio] )
 DESCRIPTION=TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT
 EAPI=8
 HOMEPAGE=https://www.tuxguitar.app/
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=xdg
-IUSE=alsa fluidalsa fluidjack fluidsdl fluidoss fluidpipewire fluidportaudio fluidpulseaudio fluidsynth oss timidity
+IUSE=alsa fluidalsa fluidjack fluidsdl fluidoss fluidpipewire fluidportaudio fluidpulseaudio fluidsynth html oss timidity
 KEYWORDS=~amd64
 LICENSE=LGPL-2.1
-RDEPEND=>=virtual/jre-1.5 media-sound/fluid-soundfont timidity? ( alsa? ( media-sound/timidity++[alsa] ) oss? ( media-sound/timidity++[oss] ) media-sound/timidity++ ) >=dev-java/swt-4.26[cairo] >=dev-qt/qtbase-6.6 media-libs/lilv media-libs/suil >=net-libs/webkit-gtk-2.42 alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) fluidalsa? ( media-sound/fluidsynth[alsa] ) fluidjack? ( media-sound/fluidsynth[jack] ) fluidsdl? ( media-sound/fluidsynth[sdl] ) fluidoss? ( media-sound/fluidsynth[oss] ) fluidpipewire? ( media-sound/fluidsynth[pipewire] ) fluidportaudio? ( media-sound/fluidsynth[portaudio] ) fluidpulseaudio? ( media-sound/fluidsynth[pulseaudio] )
+RDEPEND=>=virtual/jre-1.5 media-sound/fluid-soundfont timidity? ( alsa? ( media-sound/timidity++[alsa] ) oss? ( media-sound/timidity++[oss] ) media-sound/timidity++ ) >=dev-java/swt-4.26[cairo] >=dev-qt/qtbase-6.6 media-libs/lilv media-libs/suil html? ( >=net-libs/webkit-gtk-2.42 ) alsa? ( media-libs/alsa-lib ) fluidsynth? ( media-sound/fluidsynth ) fluidalsa? ( media-sound/fluidsynth[alsa] ) fluidjack? ( media-sound/fluidsynth[jack] ) fluidsdl? ( media-sound/fluidsynth[sdl] ) fluidoss? ( media-sound/fluidsynth[oss] ) fluidpipewire? ( media-sound/fluidsynth[pipewire] ) fluidportaudio? ( media-sound/fluidsynth[portaudio] ) fluidpulseaudio? ( media-sound/fluidsynth[pulseaudio] )
 RESTRICT=network-sandbox
 SLOT=0
 SRC_URI=https://github.com/helge17/tuxguitar/archive/refs/tags/1.6.4.tar.gz -> tuxguitar-1.6.4.tar.gz amd64? ( https://archive.eclipse.org/eclipse/downloads/drops4/R-4.26-202211231800/swt-4.26-gtk-linux-x86_64.zip )
 _eclasses_=xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
-_md5_=16f40ec567bd65ed22eb7944ebcd3abc
+_md5_=b4ca674ce62764b43660a90222b84178
