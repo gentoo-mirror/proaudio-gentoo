@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=From circuit to lv2 plugin
+EAPI=8
+HOMEPAGE=https://guitarix.org/
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RDEPEND=app-containers/docker app-shells/bash dev-vcs/git
+SLOT=0
+SRC_URI=https://github.com/domichel/proaudio-gentoo/raw/refs/heads/main/distfiles/dkbuilder-0.9.90.tar.gz
+_md5_=05cf57cf74da9288a0ca5943bd95128e

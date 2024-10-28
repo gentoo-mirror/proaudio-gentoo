@@ -1,0 +1,7 @@
+DEFINED_PHASES=-
+DESCRIPTION=LASH Audio Session Handler
+EAPI=8
+KEYWORDS=~amd64 ~x86
+RDEPEND=media-sound/ladish[lash]
+SLOT=0
+_md5_=339f7c5b63acf659bd1c5804b49a805f

@@ -1,7 +1,9 @@
 dev-lang/faust 0.9.90: Faust AUdio STreams is a programming language/compiler for fast DSP algorythms.
+dev-util/dkbuilder 0.9.90: From circuit to lv2 plugin
 dev-util/xuidesigner 9999: A WYSIWYG LV2 GUI/Plugin creator tool
 media-libs/calf_big_styles 1.0.1: Big Styles for the Calf Audio Plugins
 media-libs/juce 7.0.6: JUCE is class library for developing cross-platform applications.
+media-libs/vst-sdk 2.3-r3 2.3-r4 2.4: Steinberg VST Plug-Ins SDK 2.4 - win32
 media-plugins/amb1-plugins 0.3.0: AMB-plugins ladspa plugin package. Filters by Fons Adriaensen
 media-plugins/balance-lv2 9999: Stereo balance control with optional per channel delay
 media-plugins/convoLV2 9999: convoLV2 is a lv2 plugin to convolve audio signals
@@ -19,6 +21,7 @@ media-plugins/triceratops-lv2 9999: Triceratops is a polyphonic subtractive synt
 media-plugins/tuna-lv2 9999: A musical instrument tuner with strobe characteristic in LV2 plugin formt
 media-plugins/vocoder-ladspa 0.4: A vocoder is a sound effect that can make a human voice sound synthetic
 media-plugins/wah-plugins 0.1.0: Auto-WAH plugin.
+media-plugins/whysynth 20170701: A versatile DSSI Softsynth Plugin
 media-plugins/xfade-lv2 9999: Stereo DJ X-fade
 media-sound/4deckradio 9999: Multi-deck media playback for radio stations
 media-sound/aliki 0.3.0-r1: An integrated system for Impulse Response measurements
@@ -46,6 +49,7 @@ media-sound/jmeters 0.4.5: A jack multichannel audio level meter app featuring c
 media-sound/jnoise 0.6.0: A command line JACK app generating white and pink gaussian noise
 media-sound/jnoisemeter 0.2.2: Jnoisemeter is a small app designed to measure audio test signals and in particular noise signals
 media-sound/ladish 9999: LADI Session Handler - a session management system for JACK applications
+media-sound/lash 9998: LASH Audio Session Handler
 media-sound/ltc-tools 0.7.0 9999: Linear/Logitudinal Time Code (LTC) Library tools
 media-sound/lv2proc 0.5.1: A simple command line effect processor using LV2 plugins
 media-sound/madjack 9999: MadJACK is a MPEG Audio Deck for the Jack Audio Connection Kit with an OSC based control interface
@@ -55,6 +59,7 @@ media-sound/pure-data 0.54_p0 9999: real-time music and multimedia environment
 media-sound/qloud 9999: Tool to measure loudspeaker frequency and step responses and distortions
 media-sound/rakarrack-plus 1.2.4 9999: A multi-effects board that is a merging of original rakarrak and its LV2 portage rkrlv2 with various enhancements
 media-sound/rsound 1.1 9999: Networked audio system to transfer audio data to a different computer.
+media-sound/silentjack 0.3: SilentJack is a silence/dead air detector for the Jack Audio Connection Kit
 media-sound/sysexxer-ng 9999: Universal tool to exchange MIDI system-exclusive data
 media-sound/tetraproc 0.8.6: A-format to B-format signal converter for tetrahedral Ambisonic microphones
 media-sound/tuxguitar 1.6.4: TuxGuitar is a multitrack guitar tablature editor and player written in Java-SWT

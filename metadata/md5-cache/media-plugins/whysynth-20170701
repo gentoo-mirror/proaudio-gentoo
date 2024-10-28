@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=>=media-libs/dssi-0.9 >=media-libs/ladspa-sdk-1.0 >=media-libs/liblo-0.12 >=sci-libs/fftw-3.0.1:3.0 >=x11-libs/gtk+-2.24.0:2 sys-kernel/linux-headers virtual/pkgconfig
+DESCRIPTION=A versatile DSSI Softsynth Plugin
+EAPI=8
+HOMEPAGE=http://smbolton.com/whysynth.html
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=>=media-libs/dssi-0.9 >=media-libs/ladspa-sdk-1.0 >=media-libs/liblo-0.12 >=sci-libs/fftw-3.0.1:3.0 >=x11-libs/gtk+-2.24.0:2
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://smbolton.com/whysynth/whysynth-20170701.tar.bz2
+_md5_=bdf60dc95d42f2df1613f2e0d5d220da
