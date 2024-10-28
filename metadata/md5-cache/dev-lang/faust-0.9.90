@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install
+DEPEND=sys-apps/sed doc? ( app-doc/doxygen )
+DESCRIPTION=Faust AUdio STreams is a programming language/compiler for fast DSP algorythms.
+EAPI=8
+HOMEPAGE=http://faudiostream.sourceforge.net
+IUSE=doc examples
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-devel/bison sys-devel/flex
+SLOT=0
+SRC_URI=https://github.com/grame-cncm/faust/archive/v0-9-90.zip -> faust-0.9.90.zip
+_md5_=8caa412de6be27808660b4a5094293f2

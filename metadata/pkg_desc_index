@@ -1,3 +1,4 @@
+dev-lang/faust 0.9.90: Faust AUdio STreams is a programming language/compiler for fast DSP algorythms.
 dev-util/xuidesigner 9999: A WYSIWYG LV2 GUI/Plugin creator tool
 media-libs/calf_big_styles 1.0.1: Big Styles for the Calf Audio Plugins
 media-libs/juce 7.0.6: JUCE is class library for developing cross-platform applications.
