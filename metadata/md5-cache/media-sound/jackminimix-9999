@@ -1,5 +1,5 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure install unpack
+DEFINED_PHASES=install prepare unpack
 DEPEND=virtual/jack >=media-libs/liblo-0.23
 DESCRIPTION=a simple mixer for the Jack Audio Connection Kit with an OSC based control interface
 EAPI=8
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=virtual/jack >=media-libs/liblo-0.23
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81
-_md5_=694e7c4640ce6a6ad9989d708ecbee29
+_md5_=4e24a8cd767e0b9f48b95a95f790b1b9
