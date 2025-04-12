@@ -11,5 +11,5 @@ RDEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/aliki-0.3.0.tar.bz2
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
 _md5_=ef49c57765b5864e224034f1e1566dab

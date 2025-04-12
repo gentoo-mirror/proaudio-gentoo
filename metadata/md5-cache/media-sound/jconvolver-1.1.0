@@ -11,5 +11,5 @@ RDEPEND=>=dev-libs/libclthreads-2.4.0 >=media-libs/libsndfile-1.0.17 >=media-lib
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/jconvolver-1.1.0.tar.bz2 examples? ( http://kokkinizita.linuxaudio.org/linuxaudio/downloads/jconvolver-reverbs.tar.bz2 )
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
 _md5_=61fa2a27b1ede8f7feaec7f25dc0bfde
