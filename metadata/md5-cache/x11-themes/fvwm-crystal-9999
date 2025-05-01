@@ -1,16 +1,16 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst setup unpack
-DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) acct-group/fvwm-crystal || ( >=x11-wm/fvwm3-3.1.0.4[go] >=x11-wm/fvwm-2.6.9[png] ) virtual/imagemagick-tools || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer ) || ( x11-misc/hsetroot media-gfx/feh ) sys-apps/sed sys-devel/bc app-alternatives/awk x11-apps/xwd media-sound/alsa-utils
+DEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) acct-group/fvwm-crystal || ( >=x11-wm/fvwm3-3.1.0.4[go] >=x11-wm/fvwm-2.6.9[png] ) virtual/imagemagick-tools || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer ) || ( x11-misc/hsetroot media-gfx/feh ) sys-apps/sed sys-devel/bc app-alternatives/awk x11-apps/xwd media-sound/alsa-utils
 DESCRIPTION=Configurable FVWM theme with transparency and freedesktop compatible menu
 EAPI=8
 HOMEPAGE=http://fvwm-crystal.org/
 INHERIT=readme.gentoo-r1 python-single-r1 git-r3
-IUSE=python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
+IUSE=python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13
 LICENSE=GPL-3
 PROPERTIES=live live
-RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) acct-group/fvwm-crystal || ( >=x11-wm/fvwm3-3.1.0.4[go] >=x11-wm/fvwm-2.6.9[png] ) virtual/imagemagick-tools || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer ) || ( x11-misc/hsetroot media-gfx/feh ) sys-apps/sed sys-devel/bc app-alternatives/awk x11-apps/xwd media-sound/alsa-utils
-REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
+RDEPEND=python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) acct-group/fvwm-crystal || ( >=x11-wm/fvwm3-3.1.0.4[go] >=x11-wm/fvwm-2.6.9[png] ) virtual/imagemagick-tools || ( >=x11-misc/stalonetray-0.6.2-r2 x11-misc/trayer ) || ( x11-misc/hsetroot media-gfx/feh ) sys-apps/sed sys-devel/bc app-alternatives/awk x11-apps/xwd media-sound/alsa-utils
+REQUIRED_USE=^^ ( python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 )
 RESTRICT=mirror
 SLOT=0
-_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=readme.gentoo-r1	b045f3acf546393ab6b3170781875358	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=8551b9d34d6c764d93e35674d2e94fda
