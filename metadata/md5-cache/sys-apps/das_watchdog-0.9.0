@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://deb.debian.org/debian/pool/main/d/das-watchdog/das-watchdog_0.9.0.orig.tar.gz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=e7109ad3a85285e6bb567c205120ca93
