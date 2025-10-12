@@ -11,5 +11,5 @@ RDEPEND=media-libs/libsndfile sci-libs/fftw:3.0 pv? ( media-libs/libao media-lib
 RESTRICT=mirror
 SLOT=0
 SRC_URI=mirror://sourceforge/waon/0.10/waon-0.10.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
 _md5_=ded6a6ec9ba6c6bb2a950482fe7537ff

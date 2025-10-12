@@ -10,5 +10,5 @@ RDEPEND=virtual/jack >=dev-libs/libclthreads-2.4.0 >=x11-libs/libclxclient-3.6.1
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://kokkinizita.linuxaudio.org/linuxaudio/downloads/jkmeter-0.9.0.tar.bz2
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
 _md5_=621a35343b54fa6cf43bd8e125e57523

@@ -8,5 +8,5 @@ INHERIT=desktop git-r3 multilib xdg-utils
 LICENSE=GPL-2
 PROPERTIES=live
 SLOT=0
-_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	multilib	a199af442898963433d6f038a88cce9c	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed	git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	multilib	a199af442898963433d6f038a88cce9c	xdg-utils	42869b3c8d86a70ef3cf75165a395e09
 _md5_=12c866c94607485c98d4de39af5ec6b0
